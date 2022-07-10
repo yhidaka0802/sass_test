@@ -1,0 +1,21 @@
+@import "color";
+
+.inner {
+  background: $base;
+  padding: 0 10px 20px;
+
+  h1{
+    background: $title;
+    display: inline-block;
+  }
+
+  p {
+    color: $font;
+  }
+
+  ul {
+    li{
+      color: $list;
+    }
+  }
+}
